@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Model</title>
+ <style>
+  /*reset*/
+  *{
+    * {margin:0; box-sizing:border-box;}
+    ul,ol,li {list-style:none; margin:0; padding:0;}
+  }
+  #product{
+  width: 1030px;
+  height: auto;
+  margin: 0 auto;
+ }
+#product>h3{
+  font-size: 20px;
+  color: green;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  letter-spacing: 5px;
+}
+#product>p{
+  font-size: 17px color #000;
+  text-align: center;
+  line-height: 30px;
+}
+#product>.box{
+  width: 200px; height: 300px;
+  float:left ; margin: 60px 25px;
+  
+}
+#product>.box>p{
+  font-size: 14px;
+  color:rgb(15, 243, 15);
+}
+#product>.box>span{
+  font-size: 10px;
+  color: tomato;
+}
+#product>.box2{
+  height: 350px; width: 250px;
+  float: left;;
+  margin: 20px 20px;
+}
+#product>.box2>img{
+  height: 300px; width: 250px;
+}
+#product>.box2>p{
+  font-size: 14px;
+  color:rgb(15, 243, 15);
+}
+#product>.box2>span{
+  font-size: 10px;
+  color: tomato;
+}
+#product>.box3{
+  height: 300px; width: 200px;
+  float: left;
+  margin: 20px 27px;
+  
+}
+#product>.box3>img{
+  height: 300px; width: 200px;
+}
+#product>.box3>p{
+  font-size: 14px;
+  color:rgb(15, 243, 15);
+}
+#product>.box3>span{
+  font-size: 10px;
+  color: tomato;
+}
+ </style> 
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="product">
+
+    <h3>Today's lovely pepe</h3>
+
+    <p>귀여운 페페를 만나 보세요~</p>
+
+    <div class="box">
+      <img src="img/pepe.jpg"; width="200px" height="300px">
+      <h4>귀여운 페페</h4>
+      <p>강아지를 봐서 신난 페페</p>
+      <span>강아지 왜이렇게 귀엽지?</span>
+    </div>
+
+    <div class="box">
+      <img src="img/think.jpg"; width="200px" height="300px">
+      <h4>생각하는 페페</h4>
+      <p>생각하는 페페</p>
+      <span>오늘 뭐 먹을까?</span>
+    </div>
+
+    <div class="box">
+      <img src="img/think2.jpg"; width="200px" height="300px">
+      <h4>무서운 페페</h4>
+      <p>무서운 페페</p>
+      <span>왜이렇게 불안하지?</span>
+    </div>
+
+    <div class="box">
+      <img src="img/flower.jpg"; width="200px" height="300px">
+      <h4>꽃페페</h4>
+      <p>꽃페페</p>
+      <span>좀 있으면 꽃 피겠네</span>
+    </div>
+    <div class="box2">
+    <img src="img/우주.jpg" alt="우주">
+    <h4>우주 페페</h4>
+    <p>우주 페페</p>
+    <span>Every thing is pepe</span>
+    </div>
+    <div class="box2">
+        <img src="img/페페페페페페.jpg" alt="">
+        <h4>휴대폰배경화면페페</h4>       
+        <p>휴대폰페페</p>
+        <span>배경화면 하면 좋은 페페</span>
+    </div>
+    <div class="box2">
+      <img src="img/3ae7525b898c8a82210799255f72ec61.gif" alt="">
+      <h4>술먹는 페페</h4>
+      <p>술먹는 페페</p>
+      <span>힘들다.....</span>
+    </div>
+    <div class="box3">
+      <img src="img/햄버거.webp" alt="">
+      <h4>햄버거 페페</h4>
+      <p>맥도날드에 간 페페</p>
+      <span>다 쏟아 버렸어ㅠㅠㅠㅠ</span>
+    </div>
+    <div class="box3">
+      <img src="img/tea.gif" alt="">
+      <h4>차마시는 페페</h4>
+      <p>여유를 즐기는 페페</p>
+      <span>아메리카노는 커피 아니야 에스프레소 한잔!</span>
+    </div>
+    <div class="box3">
+    <img src="img/bboy.gif" alt="">
+    <h4>비보이 페페</h4>
+    <p>페페가 춤도 잘추다니ㄷㄷ</p>
+    <span>shake it off! shake it off!</span>
+    </div>
+    <div class="box3">
+      <img src="img/권투.gif" alt="">
+      <h4>권투 페페</h4>
+      <p>까불지마!!!</p>
+      <span>내 오른손은 황천길!</span>
+    </div>
+
+    
+    
+
+  </div>
+</body>
+</html>
